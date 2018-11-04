@@ -7,15 +7,9 @@ describe('calculator', function () {
   });
 
   // write unit tests here in the form of "it should do something..."
-  // it('It should allow you to correctly show 1+4=5', function(){
-  //
-  //   let total = calculator.numberClick(1)
-  //   total = calculator.add(4)
-  //   return total;
-  //   assert.StrictEqual(total, 5)
-  // })
 
-  it('can add 1 to 4 and get 5', function (){
+
+  it('should add 1 to 4 and get 5', function (){
      calculator.previousTotal = 1;
      calculator.add(4);
      assert.strictEqual(calculator.runningTotal, 5);
