@@ -7,7 +7,9 @@
     "webdriver": "webdriver-manager start",
     "protractor": "protractor conf.js",
     "test": "mocha tests/unit/calculator_spec.js",
-    "server:dev": "nodemon server.js"
+    "server:dev": "nodemon server.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +21,8 @@
     "nodemon": "^1.18.5",
     "protractor": "^5.4.0",
     "server.js": "^1.0.0",
-    "webdriver-manager": "^10.2.7"
-  }
+    "webdriver-manager": "^10.2.7",
+    "snyk": "^1.230.5"
+  },
+  "snyk": true
 }
