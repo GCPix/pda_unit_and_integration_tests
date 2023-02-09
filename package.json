@@ -19,6 +19,6 @@
     "nodemon": "^1.18.5",
     "protractor": "^5.4.0",
     "server.js": "^1.0.0",
-    "webdriver-manager": "^10.2.7"
+    "webdriver-manager": "^12.1.9"
   }
 }
